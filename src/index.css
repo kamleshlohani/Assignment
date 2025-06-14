@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css or App.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+input {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.provider-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin: 10px auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+.provider-card h2 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.provider-card a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.provider-card a:hover {
+  text-decoration: underline;
+}
